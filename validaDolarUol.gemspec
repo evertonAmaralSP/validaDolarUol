@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "validaDolarUol"
   spec.version       = ValidaDolarUol::VERSION
   spec.authors       = ["Everton Amaral"]
-  spec.email         = ["everton.amaral@abril.com.br"]
+  spec.email         = ["everton.amaral@gmai.com"]
   spec.summary       = "Capturar cotacao dolar uol"
-  spec.description   = "Simples assim http no site do uol parse e resultado"
+  spec.description   = "Simples assim request http no site do uol e um parse e resultado"
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "nokogiri"
 end

@@ -1,6 +1,6 @@
 # ValidaDolarUol
 
-TODO: Write a gem description
+Repassa um json com valores do dolar da pagina de cotações do uol
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ ValidaDolarUol
 
 ## Contributing
 

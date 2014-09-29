@@ -1,7 +1,6 @@
 require "validaDolarUol/version"
 require "open-uri"
 require "nokogiri"
-require "loofah"
 
 module ValidaDolarUol
   def self.coletar
@@ -15,8 +14,8 @@ module ValidaDolarUol
         :horario   => cols[0],
         :compra   => cols[1],
         :venda  => cols[2],
-        :perc_Variacao => cols[3],
-        :variação    => cols[4],
+        :perc_variacao => cols[3],
+        :variacao    => cols[4],
         :maximo    => cols[5],
         :minimo    => cols[6]
       }
